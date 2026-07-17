@@ -7,7 +7,8 @@ function startsWithSpecialCharacter(str) {
 }
 
 console.log(startsWithSpecialCharacter("Hello"));
-if(true){
+
+if(!true){
     console.log("String Started With Special Character");
 }
 else{
