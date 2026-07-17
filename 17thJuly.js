@@ -6,9 +6,19 @@ function startsWithSpecialCharacter(str) {
     return specialCharacterRegex.test(str);
 }
 
-console.log(startsWithSpecialCharacter("Hello"));
 
-if(!true){
+function startsWithNumerical(str){
+    const numericalRegex = /^[0-9]/;
+    return numericalRegex.test(str);
+}
+
+
+const input = "!Hello World";
+const result = startsWithSpecialCharacter(input);
+
+console.log(result);
+
+if(result){
     console.log("String Started With Special Character");
 }
 else{
